@@ -1,0 +1,16 @@
+{
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "src",
+  "compilerOptions": {
+    "assets": [
+      {
+        "include": "mail/templates/*.ejs",
+        "outDir": "./dist/src"
+      },
+      {
+        "include": "config.yaml",
+        "outDir": "./dist"
+      }
+    ]
+  }
+}

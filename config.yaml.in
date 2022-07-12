@@ -1,0 +1,12 @@
+basePath: '/'
+jwtExpiresIn: '120s'
+env: 'development'
+http:
+  host: 'localhost'
+  port: 3200
+mail:
+  host: ''
+  port: ''
+  user: ''
+  password: ''
+  from: ''
